@@ -1,4 +1,4 @@
-# Parrell_Coagulation_Kernal
+# Parallel_Coagulation_Kernel
 
 ## Smoluchowski Equation
 
