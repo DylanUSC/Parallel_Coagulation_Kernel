@@ -8,3 +8,11 @@ $\begin{aligned} \frac{\partial}{\partial t} n(m)=& \int_0^{\infty} \int_0^{m^{\
 
 * Ziyu Huang
 * Kevin Sampson
+
+## Applications
+
+* Interstellar Dust Coagulation
+
+![](https://cdn.mathpix.com/snip/images/Eu4yxLc9s6z63egH3isWv5x9V2HI-d3NQZTiYeQifxU.original.fullsize.png)
+
+* Cloud condensation in planetary atmospheres
