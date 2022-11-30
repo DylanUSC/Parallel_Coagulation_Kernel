@@ -1,5 +1,13 @@
 # Parallelization Scheme for Modeling Coagulation
 
+
+## Team Members
+
+* Ziyu Huang
+* Kevin Sampson
+
+
+
 ## The "Big" Problem
 
 * Modeling the time evolution of number densities of particles experiencing *coagulation* (or clumping together) is extremely computationally intensive
@@ -23,7 +31,6 @@ Along with modeling coagulation of particles in the atmosphere, this equation is
 
 
 
-## Importance
 
 * Equation is also crucial for aerosols and — most importantly — **interstellar dust**. 
 * Since no parallelized version for integrated models for this solver exist, this step has become a _bottleneck_ in the modeling process for coagulation.
@@ -34,10 +41,6 @@ Along with modeling coagulation of particles in the atmosphere, this equation is
 
 * **PARALLELIZE** the numerical solver for the Smoluchowski coagulation equation.
 
-## Team Members
-
-* Ziyu Huang
-* Kevin Sampson
 
 ## Applications
 
@@ -46,7 +49,7 @@ Along with modeling coagulation of particles in the atmosphere, this equation is
 
 ![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/Coagulation_Figure.png)
 
-## Sequential test case: K = 1
+### Sequential test case: K = 1
 
 K = 1
 
@@ -55,7 +58,8 @@ $N(m, t)=\frac{N_0}{m_0}\left(\frac{2}{N_0 t}\right)^2 \exp \left[\frac{2}{N_0 t
 ![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/K1_Dustpy.png)
 
 
-* Cloud condensation in planetary atmospheres
+
+
 
 
 
