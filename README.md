@@ -17,7 +17,7 @@ $\begin{aligned} \frac{\partial}{\partial t} n(m)=& \int_0^{\infty} \int_0^{m^{\
 
 ## Sequential test case: K = 1
 
-![]('./K1_Dustpy.png')
+![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/K1_Dustpy.png)
 
 
 * Cloud condensation in planetary atmospheres
