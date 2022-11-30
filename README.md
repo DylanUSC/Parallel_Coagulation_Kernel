@@ -2,7 +2,15 @@
 
 ## Smoluchowski Equation
 
-$\begin{aligned} \frac{\partial}{\partial t} n(m)=& \int_0^{\infty} \int_0^{m^{\prime}} K\left(m, m^{\prime}, m^{\prime \prime}\right) R\left(m^{\prime}, m^{\prime \prime}\right) \times n\left(m^{\prime}\right) n\left(m^{\prime \prime}\right) \mathrm{d} m^{\prime \prime} \mathrm{d} m^{\prime} -n(m) \int_0^{\infty} R\left(m, m^{\prime}\right) n\left(m^{\prime}\right) \mathrm{d} m^{\prime} \end{aligned}$
+
+\begin{equation}
+
+\begin{aligned}
+\frac{\partial}{\partial t} N(m)=& \int_0^{\infty} \int_0^{m^{\prime}} M\left(m, m^{\prime}, m^{\prime \prime}\right) N\left(m^{\prime}\right) N\left(m^{\prime \prime}\right) K\left(m^{\prime}, m^{\prime \prime}\right) \mathrm{d} m^{\prime \prime} \mathrm{d} m^{\prime} \\
+&-N(m) \int_0^{\infty} N\left(m^{\prime}\right) K\left(m, m^{\prime}\right) \mathrm{d} m^{\prime}
+\end{aligned}
+
+\end{equation}
 
 ## Team Members
 
