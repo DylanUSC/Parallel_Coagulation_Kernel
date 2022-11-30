@@ -12,10 +12,8 @@ $\frac{d}{d t} f_k=\frac{1}{2} \sum_{i+j=k} K(i, j) f_i f_j-\sum_i K(i, k) f_i f
 
 where
 
-* $K$ is…
-* $f_i$ is….
-* $f_j$ is …
-* $f_k$ is …
+* $K$ is the coefficient for coagulation (sticking coefficient)
+* $f_k$ is the number density of particle with m = k.
 
 ## Importance
 
