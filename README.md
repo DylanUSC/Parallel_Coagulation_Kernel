@@ -40,7 +40,6 @@ $$\frac{d}{d t} f_k=\frac{1}{2} \sum_{i+j=k} K(i, j) f_i f_j-\sum_i K(i, k) f_i 
 
 * Interstellar Dust Coagulation
 
-[Dustpy](https://stammler.github.io/dustpy/)
 
 ![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/Coagulation_Figure.png)
 
@@ -56,4 +55,6 @@ $N(m, t)=\frac{N_0}{m_0}\left(\frac{2}{N_0 t}\right)^2 \exp \left[\frac{2}{N_0 t
 
 * Parallelize serial code for offloading to GPU
 * Run tests to compare computational time with serial tests
+* Integrated model: [Dustpy](https://stammler.github.io/dustpy/)
+
 
