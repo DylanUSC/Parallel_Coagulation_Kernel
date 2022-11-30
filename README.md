@@ -15,11 +15,15 @@ where
 * $K$ is…
 * $f_i$ is….
 * $f_j$ is …
+* $f_k$ is …
 
 ## Importance
 
 Along with modeling coagulation of particles in the atmosphere, this equation is also crucial for aerosols and — most importantly — **interstellar dust**. Because there is no parallelized version for integrated models for this solver, this step has become a bottleneck in the modeling process for coagulation.
 
+## Proposed Solution 
+
+The solution to this problem is fairly self-explanatory: **PARALLELIZE** the numerical solver for the Smoluchowski coagulation equation.
 
 ## Team Members
 
