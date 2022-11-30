@@ -17,6 +17,10 @@ $\begin{aligned} \frac{\partial}{\partial t} n(m)=& \int_0^{\infty} \int_0^{m^{\
 
 ## Sequential test case: K = 1
 
+K = 1
+
+$N(m, t)=\frac{N_0}{m_0}\left(\frac{2}{N_0 t}\right)^2 \exp \left[\frac{2}{N_0 t}\left(1-\frac{m}{m_0}\right)\right]$
+
 ![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/K1_Dustpy.png)
 
 
