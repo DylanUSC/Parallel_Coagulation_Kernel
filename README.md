@@ -12,12 +12,18 @@ $\frac{d}{d t} f_k=\frac{1}{2} \sum_{i+j=k} K(i, j) f_i f_j-\sum_i K(i, k) f_i f
 
 where
 
-* $K$ is the coefficient for coagulation (sticking coefficient)
+* $K$ is the coefficient for coagulation between  and j (sticking coefficient)
 * $f_k$ is the number density of particle with m = k.
 
 ## Importance
 
+
+![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/Interstellar_dust.jpeg)
+
+
 Along with modeling coagulation of particles in the atmosphere, this equation is also crucial for aerosols and — most importantly — **interstellar dust**. Because there is no parallelized version for integrated models for this solver, this step has become a bottleneck in the modeling process for coagulation.
+
+
 
 ## Proposed Solution 
 
