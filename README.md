@@ -22,16 +22,11 @@ $$\frac{d}{d t} f_k=\frac{1}{2} \sum_{i+j=k} K(i, j) f_i f_j-\sum_i K(i, k) f_i 
 Along with modeling coagulation of particles in the atmosphere, this equation is also crucial for aerosols and — most importantly — **interstellar dust**. Because there is no parallelized version for integrated models for this solver, this step has become a bottleneck in the modeling process for coagulation.
 
 
-* $K$ is…
-* $f_i$ is….
-* $f_j$ is …
-* $f_k$ is …
 
 ## Importance
 
 * Equation is also crucial for aerosols and — most importantly — **interstellar dust**. 
 * Since no parallelized version for integrated models for this solver exist, this step has become a _bottleneck_ in the modeling process for coagulation.
->>>>>>> aac1fcac8666aa0e43dd8d4dae0d02026cb7d80c
 
 
 
