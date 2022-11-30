@@ -13,7 +13,8 @@ $\frac{d}{d t} f_k=\frac{1}{2} \sum_{i+j=k} K(i, j) f_i f_j-\sum_i K(i, k) f_i f
 
 * Interstellar Dust Coagulation
 
-![](https://cdn.mathpix.com/snip/images/Eu4yxLc9s6z63egH3isWv5x9V2HI-d3NQZTiYeQifxU.original.fullsize.png)
+
+![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/Coagulation_Figure.png)
 
 ## Sequential test case: K = 1
 
