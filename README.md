@@ -11,7 +11,7 @@
 ## The "Big" Problem
 
 * Modeling the time evolution of number densities of particles experiencing *coagulation* (or clumping together) is extremely computationally intensive
-* The only code that exists for modeling this phenomena is **serial**
+ 
 * Often takes up to several days to process on a cluster like USC CARC!
 
 * Most famous and relevant equation for describing this evolution of coagulating particles is the **Smoluchowski Coagulation Equation**:
@@ -52,9 +52,6 @@ $N(m, t)=\frac{N_0}{m_0}\left(\frac{2}{N_0 t}\right)^2 \exp \left[\frac{2}{N_0 t
 ![](https://github.com/DylanUSC/Parallel_Coagulation_Kernel/blob/main/K1_Dustpy.png)
 
 ### Work To Do
-
-* Parallelize serial code for offloading to GPU
-* Run tests to compare computational time with serial tests
-* Integrated model: [Dustpy](https://stammler.github.io/dustpy/)
+ 
 
 
